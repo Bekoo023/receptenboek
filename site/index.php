@@ -15,25 +15,28 @@
 </head>
 
 <body>
-    <div class="bovenheader">
-        <p class="bovenheadertext">Colombiaans eten is de 24ste lekkerste eten van de wereld.</p>
-        <p class="bovenheadertext">Colombiaans eten is buiten Colombia het bekendst in Amerika.</p>
-    </div>
     <header>
-        <h1>Colombiaans eten.</h1>
+        <div class="bovenheader">
+            <p class="bovenheadertext">Colombiaans eten is de 24ste lekkerste eten van de wereld.</p>
+            <p class="bovenheadertext">Colombiaans eten is buiten Colombia het bekendst in Amerika.</p>
+            <p class="bovenheadertext">Colombiaans eten wordt steeds bekender in europa.</p>
+        </div>
+        <div class="onderheader">
+            <h1>Colombiaans eten.</h1>
+        </div>
     </header>
     <nav>
-        <div class="navbar">
-          <a href="index.php">Home</a>
-          <a href="geschiedenis.php">Geschiedenis</a>
-          <a href="index.php">Home</a>
-        </div>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
+        </ul>
     </nav>
     <main>
 
     </main>
     <footer>
-
+        <p class="footertext">Bekir Sezgin</p>
     </footer>
 </body>
 
