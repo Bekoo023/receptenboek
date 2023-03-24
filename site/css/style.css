@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    margin: 0px;
+}
+.bovenheader{
+    background-color: rgb(255, 255, 80);
+    display: flex;
+}
+.bovenheadertext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header{
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: rgb(rgb(255, 92, 92));
+    justify-content: center;
+}
