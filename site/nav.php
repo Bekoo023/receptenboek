@@ -6,23 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Colombiaans eten</title>
+    <title>nav</title>
 </head>
 
 <body>
-
-    <?php
-    include "header.php";
-    include "nav.php";
-    ?>
-    <main>
-        <div class="texthome">
-            <h3>Colombiaans eten</h3>
-        </div>
-    </main>
-    <?php
-    include "footer.php"
-    ?>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="producten-index.php">Recepten</a></li>
+            <li><a href="index.php">Home</a></li>
+        </ul>
+    </nav>
 </body>
 
 </html>
