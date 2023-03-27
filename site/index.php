@@ -1,5 +1,20 @@
 <?php
 
+require 'database.php';
+
+$sql = "SELECT * FROM colombia";
+
+//hier wordt de query uitgevoerd met de database
+$result = mysqli_query($conn, $sql);
+
+/**
+ * Hier wordt het resultaat ($result) omgezet
+ * in een *multidimensionale associatieve array
+ * in dit voorbeeld staat $all_users maar dit mag
+ * voor bijvoorbeeld producten $all_products heten.
+ * Maar dit kies je zelf
+ */
+$all_eten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 ?>
 
@@ -33,7 +48,12 @@
         </ul>
     </nav>
     <main>
-
+        <?php foreach ($all_eten as $eten) : ?>
+            <p><?php echo $eten["Naam"] ?></p>
+            <p><?php echo $eten["niveau"] ?></p>
+            <p><?php echo $eten["tijd"] ?> minuten</p>
+            <img src="<?php echo $eten["plaatje"] ?>">
+        <?php endforeach; ?>
     </main>
     <footer>
         <p class="footertext">Bekir Sezgin</p>
