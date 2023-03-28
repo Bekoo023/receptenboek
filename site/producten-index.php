@@ -36,15 +36,19 @@ $all_eten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     ?>
 
     <main>
-        <div class="eten">
-            <?php foreach ($all_eten as $eten) : ?>
-                <img src="<?php echo $eten["plaatje"] ?>">
-            <?php endforeach; ?>
-            <div class="textnaasteten">
+        <div class="container">
+            <div class="eten">
                 <?php foreach ($all_eten as $eten) : ?>
-                    <p><?php echo $eten["Naam"] ?></p>
-                    <p><?php echo $eten["niveau"] ?></p>
-                    <p><?php echo $eten["tijd"] ?> minuten</p>
+                    <div class="textnaasteten">
+                        <h4 class="text"><?php echo $eten["Naam"] ?></h4>
+                        <div class="container2">
+                            <img src="<?php echo $eten["plaatje"] ?>" class="image">
+                            <div class="overlay">
+                                <p class="text"><?php echo $eten["niveau"] ?></p>
+                                <p class="text"><?php echo $eten["tijd"] ?> minuten</p>
+                            </div>
+                        </div>
+                    </div>
                 <?php endforeach; ?>
             </div>
         </div>
@@ -53,6 +57,7 @@ $all_eten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <?php
     include "footer.php";
     ?>
+
 </body>
 
 </html>

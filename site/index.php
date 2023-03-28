@@ -18,6 +18,7 @@
     <main>
         <div class="texthome">
             <h3>Colombiaans eten</h3>
+            <p></p>
         </div>
     </main>
     <?php
