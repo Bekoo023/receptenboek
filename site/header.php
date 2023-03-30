@@ -17,7 +17,7 @@
             <p class="bovenheadertext">Colombiaans eten wordt steeds bekender in europa.</p>
         </div>
         <div class="onderheader">
-            <h1>Colombiaans eten.</h1>
+            <h1>Colombiaans eten</h1>
         </div>
     </header>
 </body>

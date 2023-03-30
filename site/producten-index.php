@@ -42,7 +42,7 @@ $all_eten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <div class="textnaasteten">
                         <h4 class="text"><?php echo $eten["Naam"] ?></h4>
                         <div class="container2">
-                            <img src="<?php echo $eten["plaatje"] ?>" class="image">
+                            <a href="product.php"><img src="<?php echo $eten["plaatje"] ?>" class="image"></a>
                             <div class="overlay">
                                 <p class="text"><?php echo $eten["niveau"] ?></p>
                                 <p class="text"><?php echo $eten["tijd"] ?> minuten</p>
