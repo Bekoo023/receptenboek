@@ -144,4 +144,6 @@ main{
     width: 200px;
     background-color: darkgray;
     font-weight: 600;
+    display: block;
+    margin: 0;
 }

@@ -16,11 +16,6 @@
     include "nav.php";
     ?>
     <main>
-        <div class="sidebar">
-            <p>Geschiedenis</p>
-            <p>Export & Import</p>
-            
-        </div>
         <div class="texthomekop">
             <h3>Colombiaans eten</h3>
         </div>
